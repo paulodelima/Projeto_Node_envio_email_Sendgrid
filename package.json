@@ -1,0 +1,22 @@
+{
+  "name": "soul-email-mkt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app",
+    "start": "node src/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "http-status": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
