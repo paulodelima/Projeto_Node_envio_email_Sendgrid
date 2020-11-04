@@ -7,7 +7,7 @@ function EnviaEmail(){
     const html      = 'Teste de envio de email por chamada Ajax com JS puro';
     
     const BodyJSON  = { to, from, subject, text, html }                
-    const url       = 'localhost:3000/api/email';
+    const url       = 'http://localhost:3000/api/email';
     const xhr       = new XMLHttpRequest();
 
     xhr.open('POST', url, true);
