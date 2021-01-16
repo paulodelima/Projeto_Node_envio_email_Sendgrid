@@ -3,7 +3,6 @@ const status = require("http-status");
 sgMail.setApiKey(process.env.SENDGRID_API_KEY)
 
 exports.enviar = (request, response, next) => {
-/*
     const msg = {
         to      : request.body.to,
         from    : request.body.from,
@@ -21,7 +20,6 @@ exports.enviar = (request, response, next) => {
         console.error(error);
         response.status(status.BAD_REQUEST).send();
     })
-*/
     console.log('Recebido e retornado');
     response.status(status.OK).send();
 }
